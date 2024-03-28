@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: movie-catalog-service
+
+server:
+  port: 8000
+
+microservice-endpoints:
+  movie-rating-service-url: http://movie-rating-service/api/v1/movie-ratings/user/
+  movie-info-service-url: http://movie-info-service/api/v1/movies/
